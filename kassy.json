@@ -1,0 +1,15 @@
+{
+  "name": "messenger",
+  "version": 4.0,
+  "startup": "messenger.js",
+  "type": "integration",
+  "config": [
+    [ "commandPrefix", "The default prefix for each command.", "/" ],
+    [ "port", "The local port to host the bot on.", 8000 ],
+    [ "key", "Path to TLS key.", "" ],
+    [ "cert", "Path to TLS cert.", "" ],
+    [ "ca", "Path to TLS CA cert.", "" ],
+    [ "token", "Messenger API token.", "" ],
+    [ "verify", "Secret verification message.", "" ]
+  ]
+}
